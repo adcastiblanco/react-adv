@@ -1,7 +1,12 @@
+import { Navigation } from "../router/Navigation";
+
 export const LazyLayout = () => {
   return (
     <>
-      <h1>LazyLayout - MainPage</h1>
+      <div>
+        <h1>LazyLayout - MainPage</h1>
+        <Navigation />
+      </div>
     </>
   );
 };
